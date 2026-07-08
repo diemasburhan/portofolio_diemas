@@ -27,7 +27,10 @@
                 <li><a href="#projects">Portofolio</a></li>
                 <li><a href="#contact">Hubungi</a></li>
             </ul>
-            <div style="width: 10px;"></div> <!-- Placeholder to balance flex layout on desktop -->
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
         </div>
     </nav>
 
@@ -115,6 +118,20 @@
             }, 4000);
         </script>
     @endif
+
+    <!-- Mobile Menu Handler script -->
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            document.getElementById('global-nav').classList.toggle('menu-open');
+        });
+        
+        // Close menu when clicking links
+        document.querySelectorAll('.global-nav-menu a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                document.getElementById('global-nav').classList.remove('menu-open');
+            });
+        });
+    </script>
 
     @yield('scripts')
 </body>
