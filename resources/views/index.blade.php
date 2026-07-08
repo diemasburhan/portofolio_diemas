@@ -16,7 +16,7 @@
                     Diemas <span style="color: var(--color-primary);">Burhan Septian</span>
                 </h1>
                 <p class="lead-airy" style="color: var(--color-ink-muted-80); margin-bottom: 40px; line-height: 1.5; font-size: 19px; max-width: 520px;">
-                    Spesialis Linux Deployment dan PHP Laravel Programmer yang bertanggung jawab mengelola infrastruktur web aplikasi terintegrasi di Institut Digital Ekonomi LPKIA.
+                    Berpengalaman dalam mengelola server Linux, melakukan deployment aplikasi web, serta mengembangkan aplikasi menggunakan PHP Laravel.
                 </p>
                 <div style="display: flex; gap: 15px; flex-wrap: wrap;">
                     <a href="#contact" class="btn-primary">Hubungi Saya</a>
